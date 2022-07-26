@@ -97,8 +97,8 @@ body {
     padding: 1em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 20vh;
+    justify-content: flex-end;
+    height: 25vh;
     margin: 1em;
     width: 20%;
 }
@@ -138,4 +138,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--background);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+#reset {
+    height: min-content;
+    padding: 7px;
 }
