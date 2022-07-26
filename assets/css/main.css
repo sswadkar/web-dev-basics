@@ -82,7 +82,14 @@ body {
     color: var(--primary);
 }
 .products {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
     padding: 1em;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: flex-start;
 }
 
 .product {
@@ -91,9 +98,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    max-height: 25vh;
+    height: 20vh;
     margin: 1em;
-    width: fit-content;
+    width: 20%;
 }
 
 .product > div > p {
