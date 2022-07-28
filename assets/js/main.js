@@ -11,5 +11,6 @@ function updateCart() {
 }
 
 function resetCart() {
+    totalCart = 0
     document.getElementById("totalAmount").innerText = '0.00';
 }
